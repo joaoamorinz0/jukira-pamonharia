@@ -42,7 +42,7 @@ O site foi desenvolvido para facilitar os pedidos via WhatsApp e apresentar o ca
 
 ## 📂 Estrutura do Projeto
 
-''
+'''
 jukira-pamonharia/
 ├── index.html # Página principal
 ├── css/
@@ -50,7 +50,7 @@ jukira-pamonharia/
 ├── img/
 │ └── (imagens do projeto)
 └── README.md # Este arquivo
-''
+'''
 
 ## 📖 Cardápio
 

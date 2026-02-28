@@ -41,3 +41,42 @@ O site foi desenvolvido para facilitar os pedidos via WhatsApp e apresentar o ca
 ---
 
 ## 📂 Estrutura do Projeto
+
+''
+jukira-pamonharia/
+├── index.html # Página principal
+├── css/
+│ └── style.css # Estilos do site
+├── img/
+│ └── (imagens do projeto)
+└── README.md # Este arquivo
+''
+
+## 📖 Cardápio
+
+### 🧂 Pamonhas Salgadas
+- Tradicional — R$ 12,00  
+- Queijo — R$ 12,00  
+
+### 🍯 Pamonhas Doces
+- Tradicional — R$ 12,00  
+- Queijo — R$ 12,00  
+
+### 🌶️ Pamonhas Variadas (R$ 14,00)
+- A Moda (com/sem pimenta)  
+- Carne de Sol (com/sem pimenta)  
+- Frango (com/sem pimenta)  
+- Jiló (com/sem pimenta)  
+
+### 🥤 Bebidas
+**Cural (Mingau de Milho)**  
+- 250ml — R$ 8,00  
+- 500ml — R$ 16,00  
+
+### 🍰 Bolos Caseiros
+- Bolo de Milho c/ Requeijão — R$ 16,00  
+- Mané Pelado  
+  - Pequeno — R$ 12,00  
+  - Grande — R$ 20,00  
+
+---

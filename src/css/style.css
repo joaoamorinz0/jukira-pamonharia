@@ -220,6 +220,7 @@ header {
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
 }
 
 .card:hover {
@@ -368,6 +369,8 @@ header {
 
 .contato-content {
     display: flex;
+    flex-direction: column;
+    gap: var(--espaco-medio);
 }
 
 .contato-grid {
@@ -452,6 +455,311 @@ header {
     margin-bottom: var(--espaco-pequeno);
 }
 
+/* ==============================
+   RESPONSIVIDADE - TABLET & DESKTOP
+   ============================== */
+@media (min-width: 768px) {
+    /* Navbar: tablet */
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: var(--espaco-pequeno) var(--espaco-grande);
+        gap: 0.1rem;
+    }
 
+    .titulo {
+        font-size: 1.9rem;
+    }
+
+    .cabecalho {
+        display: flex;
+        align-items: center;
+        width: auto;
+    }
+
+    .cabecalho ul {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        gap: var(--espaco-pequeno);
+    }
+
+    .cabecalho a {
+        padding: 0.55rem 0.95rem;
+    }
+
+    /* Hero Section */
+.hero {
+    padding: 3rem 2rem;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+}
+
+.hero p {
+    font-size: 1.6rem;
+    max-width: 500px;
+}
+
+.hero-image {
+    max-width: 450px;
+}
+
+/* Sobre Nós */
+.sobre-nos {
+    padding: var(--espaco-grande) 3rem;
+}
+
+.sobre-nos h2 {
+    font-size: 2.8rem;
+}
+
+.sobre-nos p {
+    font-size: 1.7rem;
+}
+
+/* Cardápio - Grid */
+.grid-cardapio {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.categoria {
+    padding: var(--espaco-grande) 1rem;
+}
+
+.categoria-title {
+    font-size: 2.8rem;
+}
+
+.card-title {
+    font-size: 1.8rem;
+}
+
+.card-desc {
+    font-size: 1.4rem;
+}
+
+.card-btn {
+    font-size: 1.2rem;
+}
+
+/* Contato */
+.contato {
+    padding: 3rem 3rem;
+    
+}
+
+.contato h2 {
+    font-size: 3.5rem;
+    margin-bottom: var(--espaco-medio);
+}
+
+.contato-grid {
+    gap: 2rem;
+}
+
+.contato-card {
+    max-width: 300px;
+    padding: 2.5rem;
+}
+
+.contato-content {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.contato-icon {
+    font-size: 4rem;
+}
+
+.contato-icon-instagram {
+    font-size: 4rem;
+}
+
+.contato-title {
+    font-size: 1.5rem;
+}
+
+.contato-title-instagram {
+    font-size: 1.5rem;
+}
+
+.contato-desc {
+    font-size: 1.2rem;
+}
+
+.contato-link {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+}
+
+.contato-link-instagram {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+}
+}
+
+@media (min-width: 1024px) {
+    /* Navbar: desktop */
+    header {
+        padding: var(--espaco-pequeno) var(--espaco-grande);
+    }
+
+    .titulo {
+        font-size: 2.2rem;
+    }
+
+    .cabecalho ul {
+        gap: calc(var(--espaco-pequeno) * 1.5);
+    }
+
+    .cabecalho a {
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+    }
+
+    /* Hero Section */
+    .hero-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: var(--espaco-grande);
+}
+
+.hero {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 3rem;
+    min-height: 80vh;
+}
+
+.hero-content {
+    max-width: 100%;
+}
+
+.hero h1 {
+    font-size: 4.2rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    max-width: 550px;
+}
+
+.hero-image {
+    max-width: 450px;
+}
+
+.hero-btn {
+    max-width: 400px;
+    padding: 0.8rem 2rem;
+    font-size: 1.3rem;
+}
+
+
+/* Sobre Nós */
+.sobre-nos {
+    padding: 0.6rem 4rem;
+}
+
+.sobre-nos h2 {
+    font-size: 3.5rem;
+}
+
+.sobre-nos p {
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Cardápio - Grid */
+
+.card {
+    margin: 0 auto;
+}
+
+.grid-cardapio {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 1.5rem;
+    }
+
+.cardapio-section {
+    padding: var(--espaco-grande) 2rem;
+}
+
+.categoria {
+    padding: var(--espaco-grande) 0;
+
+}
+
+.categoria-title {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+/* Contato */
+.contato {
+    padding: 3rem 3rem;
+    
+}
+
+.contato h2 {
+    font-size: 3.5rem;
+    margin-bottom: var(--espaco-medio);
+}
+
+.contato-grid {
+    gap: 2rem;
+}
+
+.contato-card {
+    max-width: 400px;
+    padding: 2.5rem;
+}
+
+.contato-content {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.contato-icon {
+    font-size: 4rem;
+}
+
+.contato-icon-instagram {
+    font-size: 4rem;
+}
+
+.contato-title {
+    font-size: 2.5rem;
+}
+
+.contato-title-instagram {
+    font-size: 2.5rem;
+}
+
+.contato-desc {
+    font-size: 1.5rem;
+}
+
+.contato-link {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+}
+
+.contato-link-instagram {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+}
+
+}
 
 

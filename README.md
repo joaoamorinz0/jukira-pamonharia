@@ -47,11 +47,8 @@ jukira-pamonharia/
 ├── index.html # Página principal
 ├── css/
 │ └── style.css # Estilos do site
-<<<<<<< HEAD
 ├── js/
 │ └── script.js # Interação do usuário
-=======
->>>>>>> d0294d012acf39deb32ea2bd80eb1ad847d80631
 ├── img/
 │ └── (imagens do projeto)
 └── README.md # Este arquivo
@@ -82,9 +79,4 @@ jukira-pamonharia/
 - Bolo de Milho c/ Requeijão — R$ 16,00  
 - Mané Pelado  
   - Pequeno — R$ 12,00  
-  - Grande — R$ 20,00  
-<<<<<<< HEAD
-=======
-
----
->>>>>>> d0294d012acf39deb32ea2bd80eb1ad847d80631
+  - Grande — R$ 20,00

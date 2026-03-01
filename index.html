@@ -36,8 +36,14 @@
             <p>Na Jukira Pamonharia, trazemos para Goiânia o verdadeiro sabor do interior. Nossas pamonhas são preparadas com Milho Verde fresco, enroladas na folha da espiga e feitas na hora, garantindo aquele gostinho de comida de vó e de fazenda.</p>
         </section>
 
+        <button id="toggle-cardapio" class="toggle-btn">
+    <span>Ver Cardápio</span>
+    <i class="fas fa-chevron-down"></i>
+        </button>
+
+
         <!-- Categoria: Pamonhas Salgadas -->
-         <section class="cardapio" id="cardapio">
+         <section class="cardapio-section oculto" id="cardapio">
 <div class="categoria">
     <h3 class="categoria-title">Pamonhas Salgadas</h3>
     <div class="grid-cardapio">
@@ -227,7 +233,6 @@
         </article>
 
         <!-- Categoria: Cural (Mingau de Milho) -->
-<div class="categoria">
     <h3 class="categoria-title">Cural (Mingau de Milho)</h3>
     <div class="grid-cardapio">
         
@@ -258,12 +263,9 @@
                 </a>
             </div>
         </article>
-
-    </div>
 </div>
 
 <!-- Categoria: Bolo de Milho -->
-<div class="categoria">
     <h3 class="categoria-title">Bolos Caseiros</h3>
     <div class="grid-cardapio">
         
@@ -282,10 +284,8 @@
         </article>
 
     </div>
-</div>
 
 <!-- Categoria: Mané Pelado (Bolo de Mandioca) -->
-<div class="categoria">
     <h3 class="categoria-title">Mané Pelado</h3>
     <div class="grid-cardapio">
         
@@ -318,33 +318,35 @@
         </article>
 
     </div>
-</div>
 </section>
 
 <section class="contato" id="contato">
-    <h2>Entre em contato conosco!</h2>
+    <h2>Entre em <span>contato</span> conosco!</h2>
+    <div class="contato-content">
      <article class="card contato-card">
         <div class="contato-icon">
             <i class="fab fa-whatsapp"></i>
         </div>
         <h3 class="contato-title">WhatsApp</h3>
-        <p class="contato-desc">Pedidos via WhatsApp</p>
+        <p class="contato-desc">Contate-nos!</p>
         <a href="https://wa.me/556286439314" class="contato-link" target="_blank">
-            Envie uma mensagem
+            WhatsApp
         </a>
     </article>
 
     <article class="card contato-card">
-        <div class="contato-icon">
+        <div class="contato-icon-instagram">
             <i class="fab fa-instagram"></i>
         </div>
-        <h3 class="contato-title">Instagram</h3>
-        <p class="contato-desc">Siga a gente</p>
-        <a href="https://instagram.com/jukirapamonharia" class="contato-link" target="_blank">
-            @jukirapamonharia
+        <h3 class="contato-title-instagram">Instagram</h3>
+        <p class="contato-desc">Siga a gente!</p>
+        <a href="https://instagram.com/jukirapamonharia" class="contato-link-instagram" target="_blank">
+            Instagram
         </a>
     </article>
+    </div>
 </section>
 
+<script src="src/js/script.js"></script>
 </body>
 </html>

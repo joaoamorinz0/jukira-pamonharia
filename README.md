@@ -47,6 +47,8 @@ jukira-pamonharia/
 ├── index.html # Página principal
 ├── css/
 │ └── style.css # Estilos do site
+├── js/
+│ └── script.js # Interação do usuário
 ├── img/
 │ └── (imagens do projeto)
 └── README.md # Este arquivo

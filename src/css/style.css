@@ -383,9 +383,10 @@ header {
     text-align: center;
     box-shadow: var(--sombra-card);
     width: 100%;
-    max-width: 200px;
+    max-width: 170px;
     margin: 0 auto;
     transition: transform 0.3s ease;
+    align-items: center;
 }
 
 .contato-card:hover {
@@ -401,7 +402,7 @@ header {
 .contato-title {
     font-size: 1.2rem;
     color: var(--texto-principal);
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.1rem;
     font-weight: 600;
 }
 
@@ -413,27 +414,36 @@ header {
 
 .contato-link {
     display: inline-block;
-    color: var(--cor-secundaria);
+    color: var(--fundo-principal);
+    padding: 8px;
+    border-radius: var(--borda-radius);
     font-weight: 700;
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color 0.5s ease;
+    background: var(--cor-primaria);
 }
 
 .contato-link:hover {
     color: var(--cor-primaria);
+    background: var(--fundo-principal);
 }
 
 
 .contato-link-instagram {
     display: inline-block;
-    color: #d60a7a;
+    color: var(--fundo-principal);
+    background: #d60a7a;
+    padding: 8px;
+    border-radius: var(--borda-radius);
     font-weight: 700;
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color 0.5s ease;
 }
 
 .contato-link-instagram:hover {
-    color: #690d40;
+    color: #d60a7a;
+    background: var(--fundo-principal);
+
 }
 
 .contato-icon-instagram {
